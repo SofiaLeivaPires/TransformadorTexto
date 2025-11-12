@@ -2,78 +2,114 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 12px;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 16px;
 }
 
 .logo {
-    width: 160px;
+    width: 200px;
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-evenly;  
     padding: 1px 3px;
     text-align: center;
 }
 
 .secao-1 {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 25px;  
+    border: 1px solid ;
+    box-shadow: 0px 0px 8px 2px #001889;
+    background-color: #d9dffa;
+
 }
 
 .input-text {
-    width: 160px;
+    width: 200px;
     margin: 3px 0;
     padding: 1px 3px;
-
+    margin-bottom: 10px;
 }
 
 .container-button {
-    width: 160px;
-    padding: 2px 0;
+    width: 200px;
+    padding: 2px ;
     display: flex;
     justify-content: space-between;    
 }
 
 
 .btn {
-    width: 77px;
+    width: 95px;
     padding: 2px ;
-    border-radius: 3px;
-    border: solid 1px #4c4c4d;
+    border: 0.8px solid #001889;
+    background-color: #7f93eb;;
     cursor: pointer;
+    color: azure;
+    border-radius: 15px;
+
 }
 
 .btn-codigo {
     width: 200px;
     padding: 2px ;
-    border-radius: 3px;
-    border: solid 1px #4c4c4d;
+    border: 0.8px solid #001889;
+    background-color: #7f93eb;
     cursor: pointer;
+    color: azure;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+
+.btn:hover, .btn-codigo:hover {
+    background-color: #001889;
 }
 
 
 .resultado {
-    width: 160px; 
+    width: 200px; 
     height: 74px;
     display: block;
 
 }
 
 .resultado-input {
-    width: 160px;
+    width: 200px;
     height: 70px;     
     padding-left: 5px;     
     box-sizing: border-box;
     resize: none;       
     overflow: auto;
- 
+    
 }
 
 .container-info {
     width: 160px;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #001889;
+
+}
+
+input, textarea {
+    border-radius: 10px;
+    background-color: #fcf3fc;
+    border: 0.8px solid #001889;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+input:focus, textarea:focus {
+  border-color: rgb(124, 124, 255); 
+  outline: none; 
 }
