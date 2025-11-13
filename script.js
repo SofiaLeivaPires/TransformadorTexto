@@ -60,8 +60,9 @@ window.document.addEventListener("DOMContentLoaded", function(){
             console.warn(`Caractere não suportado ignorado: ${character}`);
             }
         }
-
+        document.querySelector("#input-text").value = ""
         document.querySelector("#resultado-input").innerHTML = morseCode.trim();
+        
 
 
     } )
